@@ -1,6 +1,7 @@
 .section1{
     width: 100%;
     height: 100%;
+    background-color: $site-clr-2;
     background-image: url(#{$path-assets-url}/img/Section-1.png#{$cache-busting});
     background-position: center;
     background-size: auto;

@@ -7,7 +7,7 @@ import Link from "next/link"
 
 const Section1 = () => {
   return (
-    <div className="section1">
+    <div className="section1" >
         <Container>
             <div className="logo">
                <Link href={"/"}>
