@@ -1,0 +1,43 @@
+.section8{
+    background-color: $site-clr-2;
+    &-content{
+        padding: 40px 0;
+        .title{
+            h3{
+                color: white;
+                text-align: center;
+            }
+        }
+        .info{
+            display: flex;
+            align-items: center;
+            padding: 40px 0;
+            .left{
+                flex: 0 0 auto;
+                width:400px;
+                @include BootstrapMaxWidthResponsive(sm){ 
+                    width: 350px;
+                }
+                @include BootstrapMaxWidthResponsive(xs){ 
+                    display: none;
+                }
+
+            }
+            .right{
+                flex:1 0 0;
+                width: 100%;
+                .row{
+                    .col{
+                        padding-right: 40px;
+                        margin-top: 100px;
+                        h4{
+                            color: white;
+                            font-size: 1.4rem;
+                            margin: 15px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

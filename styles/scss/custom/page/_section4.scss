@@ -1,0 +1,73 @@
+.section4-5{
+    background-color: $site-clr-2;
+    &-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+        @include BootstrapMaxWidthResponsive(sm){ 
+            padding-left: 0;
+        }
+        .info{
+            flex: 1;
+            h3{
+                color: $site-clr-1;
+            }
+            p{
+                margin-bottom: 40px;
+            }
+            ul{
+                list-style:disc;
+                color: white;
+                padding-left: 16px;
+                li{
+                    padding: 10px 0;
+                }
+            }
+            .buton{
+                div{
+                    button{
+                        padding: 16px 33px;
+                        @include BootstrapMaxWidthResponsive(lg){ 
+                            padding: 17px 40px;
+                        }
+                        @include BootstrapMaxWidthResponsive(md){ 
+                            padding: 18px 43px;
+                        }
+                        @include BootstrapMaxWidthResponsive(sm){ 
+                            padding: 20px 51px;
+                            margin-bottom: 75px;
+                        }
+                    }
+                }
+            }
+        }
+        .coinimg{
+            flex: 1;
+            text-align: center;
+            @include BootstrapMaxWidthResponsive(xs){ 
+                display: none;
+            }
+            .big{
+                height: 75%;
+                width: 75%;
+
+            }
+            .small{
+                width: 60%;
+                height: 60%;
+            }
+        }
+    }
+    .title{
+        h2{
+            color: $site-clr-1;
+            font-size: 8rem;
+            margin: 0 !important;
+            text-align: center;
+            span{
+                color: white !important;
+            }
+        }
+    }
+}

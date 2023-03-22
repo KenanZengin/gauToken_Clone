@@ -1,0 +1,49 @@
+.section10{
+    background-color: $site-clr-2;
+    &-content{
+        padding: 40px 0;
+        .title{
+            text-align: center;
+            h3{
+                color: $site-clr-1;
+                font-weight: bold;
+    
+            }
+            p{
+                line-height: 1.5;
+                color: white;
+                padding: 20px 60px;
+            }
+        }
+        .info{
+            .col{
+                margin-bottom: 100px;
+                padding-right: 80px;
+                @include BootstrapMaxWidthResponsive(xm){ 
+                    padding-right: 0;
+                }
+                div{
+                    width: 80px;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                }
+                h4{
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    color: white;
+                    padding-top: 25px;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+    .section11-img{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

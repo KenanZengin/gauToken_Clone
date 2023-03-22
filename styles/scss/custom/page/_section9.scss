@@ -1,0 +1,48 @@
+.section9{
+    background-color: $site-clr-2;
+    &-content{
+        padding: 40px 0;
+        .title{
+            h3{
+            color: white;
+            text-align: center;
+            }
+        }
+        .info{
+            .accordion{
+                &-item{
+                    border-color: $site-clr-2 $site-clr-2 white $site-clr-2;
+                    background-color: $site-clr-2;
+                    border-radius: 0;
+                    .accordion-button.collapsed{
+                        border-radius: 0;
+                    }
+                }
+                &-header{
+                    button{
+                        background-color: $site-clr-2;
+                        display: flex;
+                        justify-content: space-between;
+                        color: white;
+                        padding: 10px 0;
+                        border-radius: 0;
+                        &::after{
+                            content: none;
+                        }
+                        &:focus{
+                            box-shadow: inset 0 calc(-1 * 1px) 0 white;
+                        }
+                    }
+                }
+                &-collapse{
+                    h4{
+                        color: $site-clr-1;
+                        font-size: 1.125rem;
+                        font-weight: bolder;
+                    }
+
+                }
+            }
+        }
+    }
+}

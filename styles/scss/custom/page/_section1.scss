@@ -1,0 +1,128 @@
+.section1{
+    width: 100%;
+    height: 100%;
+    background-image: url(#{$path-assets-url}/img/Section-1.png#{$cache-busting});
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    .logo{
+        color: white;
+        font-size: 1.5rem;
+        padding-left: 30px;
+        @include BootstrapMaxWidthResponsive(xm){ 
+            padding-left: 0;
+            text-align: center;
+        }
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 75px;
+        @include BootstrapMaxWidthResponsive(xm){ 
+            justify-content: center;
+            text-align: center;
+        }
+        .left{
+            flex: 1;
+            p{
+                font-size: 1.25rem; 
+                &:first-child{
+                font-size: 1.5rem !important;
+                padding-left: 30px !important;
+                    @include BootstrapMaxWidthResponsive(xm){ 
+                        padding-left: 0 !important;
+                    }
+                }
+
+            }
+            h1,h2{
+                color: $site-clr-1;
+            }
+            .title{
+                padding: 30px 0;
+                h1{
+                    font-size: 4rem;
+                    line-height: 1.3;
+                    span{
+                        color: white !important;
+                    }
+                }
+                .rod{
+                    height: 6px;
+                    width: 40%;
+                    margin-left: 40px;
+                    background-color: $site-clr-1;
+                    @include BootstrapMaxWidthResponsive(xm){ 
+                        margin-left: 0;
+                        margin: auto;
+                    }
+                }
+            }
+            .info{
+                padding-left: 30px;
+                @include BootstrapMaxWidthResponsive(xm){ 
+                    padding-left: 0;
+                }
+                h2{ 
+                    padding-bottom: 20px !important;
+                    font-size: 2rem; 
+                }
+            }
+        }
+        .right{
+            flex: 1;
+            text-align: center;
+            @include BootstrapMaxWidthResponsive(md){ 
+                flex: 0 0 auto;
+            }
+            @include BootstrapMaxWidthResponsive(xm){ 
+                display: none;
+            }
+            img{
+                @include BootstrapMaxWidthResponsive(lg){ 
+                    width: 300px;
+                    height: 300px;
+                }
+                @include BootstrapMaxWidthResponsive(md){ 
+                    width: 250px;
+                    height: 250px;
+                }
+                @include BootstrapMaxWidthResponsive(sm){ 
+                    width: 200px;
+                    height: 200px;
+                }
+                @include BootstrapMaxWidthResponsive(xs){ 
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+    .buton{
+        padding-left: 30px;
+        @include BootstrapMaxWidthResponsive(xm){ 
+            padding-left: 0;
+            text-align: center;
+        }
+        button{
+            @include BootstrapMaxWidthResponsive(lg){ 
+                padding: 17px 32px;
+            }
+            @include BootstrapMaxWidthResponsive(md){ 
+                padding: 18px 36px;
+            }
+            @include BootstrapMaxWidthResponsive(sm){ 
+                padding: 18px 40px;
+            }
+            @include BootstrapMaxWidthResponsive(xs){ 
+                padding: 20px 44px;
+            }
+        }
+    }
+}
+

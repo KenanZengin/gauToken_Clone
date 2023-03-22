@@ -1,0 +1,22 @@
+.section7{
+    background-color: $site-clr-2;
+    &-content{
+        text-align: center;
+        padding: 40px 0;
+        .title{
+            h3{
+                color: white; 
+            }
+            p{
+                padding: 10px 60px;
+            }
+        }
+        .chart{
+            margin-top: 60px;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }  
+    }
+}
