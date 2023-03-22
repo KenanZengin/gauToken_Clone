@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Container } from 'react-bootstrap'
 
-import robotcoin from '../public/assets/img/Robot-coin.png'
+import robotcoin from '../public/assets/img/Robot-Coin.png'
 
 const Section5 = () => {
   return (
