@@ -5,7 +5,7 @@ import plus from '../public/assets/img/plus-icon.png'
 
 const Section9 = () => {
   return (
-    <div className="section9">
+    <section className="section9">
         <Container>
             <div className="section9-content">
                 <div className="title">
@@ -146,7 +146,7 @@ const Section9 = () => {
                 </div>
             </div>
         </Container>
-    </div>
+    </section>
   )
 }
 

@@ -1,3 +1,4 @@
+@import 'header';
 @import 'section1';
 @import 'section2';
 @import 'section3';
@@ -8,7 +9,7 @@
 @import 'section8';
 @import 'section9';
 @import 'section10';
-@import 'section11';
+@import 'footer';
 
 html{
     @include BootstrapMaxWidthResponsive(lg){ 

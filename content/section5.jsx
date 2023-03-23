@@ -5,7 +5,7 @@ import robotcoin from '../public/assets/img/Robot-Coin.png'
 
 const Section5 = () => {
   return (
-    <div className="section4-5">
+    <section className="section4-5">
         <Container>
             <div className="section4-5-content">
                 <div className="coinimg">
@@ -26,7 +26,7 @@ const Section5 = () => {
         <div className="title">
             <h2>UTILITY TOKEN <span>GAMER ARENA</span></h2>
         </div>
-    </div>
+    </section>
   )
 }
 

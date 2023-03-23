@@ -7,7 +7,7 @@ import goldcoin from '../public/assets/img/TOKEN_2.png'
 
 const Section4 = () => {
   return (
-    <div className="section4-5">
+    <section className="section4-5">
         <Container>
             <div className="section4-5-content">
                 <div className="info">
@@ -33,7 +33,7 @@ const Section4 = () => {
                 </div>
             </div>
         </Container>
-    </div>
+    </section>
   )
 }
 

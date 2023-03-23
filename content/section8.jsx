@@ -10,7 +10,7 @@ import Frame3 from '../public/assets/img/icon-people.png'
 
 const Section8 = () => {
   return (
-    <div className="section8">
+    <section className="section8">
         <Container>
             <div className="section8-content">
                 <div className="title">
@@ -48,7 +48,7 @@ const Section8 = () => {
                 </div>
             </div>
         </Container>
-    </div>
+    </section>
   )
 }
 

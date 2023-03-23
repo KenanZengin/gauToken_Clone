@@ -9,7 +9,7 @@ const Section2 = () => {
     
 
   return (
-    <div className="section2">
+    <section className="section2">
        <Container>
             <div className="section2-content">
                 <div className="left">
@@ -42,7 +42,7 @@ const Section2 = () => {
                 </div>
             </div>
        </Container>
-    </div>
+    </section>
   )
 }
 

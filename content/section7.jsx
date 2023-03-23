@@ -5,7 +5,7 @@ import chart from '../public/assets/img/Chart.png'
 
 const Section7 = () => {
   return (
-    <div className="section7">
+    <section className="section7">
         <Container>
             <div className="section7-content">
                 <div className="title">
@@ -20,7 +20,7 @@ const Section7 = () => {
                 </div>
             </div>
         </Container>
-    </div>
+    </section>
   )
 }
 

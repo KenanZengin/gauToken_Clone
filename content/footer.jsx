@@ -9,11 +9,11 @@ import bank from '../public/assets/img/bank.png'
 
 
 
-const Section11 = () => {
+const Footer = () => {
   return (
-    <div className="section11">
+    <footer className="footer">
         <Container>
-            <div className="section11-content">
+            <div className="footer-content">
                 <div className="info">
                     <div className="left">
                         <h3>ICRYPEX ILE GAU TOKEN’A <br /> SAHİP OL!</h3>
@@ -49,8 +49,8 @@ const Section11 = () => {
             </div>
         </Container>
         <div className='addclr'></div>
-    </div>
+    </footer>
   )
 }
 
-export default Section11
+export default Footer

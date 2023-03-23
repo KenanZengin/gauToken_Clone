@@ -53,7 +53,7 @@ const Section3 = () => {
     }
 
   return (
-    <div className="section3">
+    <section className="section3">
         <Container>
             <div className="section3-content">
                 <h3>22 KASIM 2021 - 00.00</h3>
@@ -61,7 +61,7 @@ const Section3 = () => {
                 {getFormattedTime(time)}
             </div>
         </Container>
-    </div>
+    </section>
   )
 }
 

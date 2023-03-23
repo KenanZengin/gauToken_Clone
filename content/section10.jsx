@@ -12,7 +12,7 @@ import section11 from '../public/assets/img/Section-11.png'
 
 const Section10 = () => {
   return (
-    <div className="section10">
+    <section className="section10">
         <Container>
             <div className="section10-content">
                 <div className="title">
@@ -64,7 +64,7 @@ const Section10 = () => {
         <div className="section11-img">
             <Image src={section11} alt="/"  />
         </div>
-    </div>
+    </section>
   )
 }
 

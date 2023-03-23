@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap"
 
 const Section6 = () => {
   return (
-    <div className="section6">
+    <section className="section6">
         <Container>
             <div className="section6-content">
                 <div className="info">
@@ -13,7 +13,7 @@ const Section6 = () => {
                 </div>
             </div>
         </Container>
-    </div>
+    </section>
   )
 }
 
